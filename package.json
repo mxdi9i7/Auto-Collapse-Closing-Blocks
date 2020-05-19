@@ -1,0 +1,40 @@
+{
+	"name": "auto-collapse-blocks",
+	"displayName": "auto-collapse-blocks",
+	"description": "Default close blocks. I'd like to be able to leave an inline comment in a source file (html, ts, js, scss, xml, etc) that will automatically collapse the block starting on the next line whenever I open a file. I get annoyed opening a file then having to manually close a bunch of blocks so I can focus on one area, so I'd like to // collapse and have the following block collapsed automagically",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+        "onCommand:auto-collapse-blocks.helloWorld"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [{
+            "command": "auto-collapse-blocks.helloWorld",
+            "title": "Hello World"
+
+		}]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "yarn run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+        "@types/vscode": "^1.45.0",
+        "@types/glob": "^7.1.1",
+        "@types/mocha": "^7.0.2",
+        "@types/node": "^13.11.0",
+        "eslint": "^6.8.0",
+        "glob": "^7.1.6",
+		"mocha": "^7.1.2",
+        "typescript": "^3.8.3",
+        "vscode-test": "^1.3.0"
+    }
+
+}
