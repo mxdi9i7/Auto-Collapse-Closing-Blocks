@@ -1,5 +1,6 @@
 # Auto Collapse Blocks - VS Code Extension
 
+[VS code extension install page](https://marketplace.visualstudio.com/items?itemName=allergan-bt.auto-collapse-blocks&ssr=false#overview)
 This is the README for extension "auto-collapse-blocks" in VS Code. This extension allows you to add `@collapse` annotation to the top of your code file and auto-magically collapse all code blocks within that file.
 
 ## Features
