@@ -31,6 +31,7 @@ Initial release, with basic language supports for
 - `.md`
 
 - README updates
+- Added more demo assets
 
 ---
 
