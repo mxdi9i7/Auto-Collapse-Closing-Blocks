@@ -1,5 +1,10 @@
 {
 	"name": "auto-collapse-blocks",
+	"publisher": "auto-collapse-block",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mxdi9i7/Auto-Closing-Blocks"
+	},
 	"displayName": "auto-collapse-blocks",
 	"description": "Default close blocks. I'd like to be able to leave an inline comment in a source file (html, ts, js, scss, xml, etc) that will automatically collapse the block starting on the next line whenever I open a file. I get annoyed opening a file then having to manually close a bunch of blocks so I can focus on one area, so I'd like to // collapse and have the following block collapsed automagically",
 	"version": "0.0.1",

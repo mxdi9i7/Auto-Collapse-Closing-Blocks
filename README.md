@@ -4,7 +4,7 @@ This is the README for extension "auto-collapse-blocks" in VS Code. This extensi
 
 ## Features
 
-![Image of demo in JS](demo/demo.gif)
+![Image of demo in JS](https://res.cloudinary.com/dtgh01qqo/image/upload/v1590181736/demo_gjukx5.gif)
 
 > Tip: Only the language file listed below will work with this extension, for more language support, please submit an issue and we will add them shortly!
 
